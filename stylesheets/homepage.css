@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: slategrey;
+    padding-right: 42px;
+}
+#donut {
+    width: 200px;
+    height: auto;
+}
+ul {
+    gap: 18px;
+}
