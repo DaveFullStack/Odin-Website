@@ -1,16 +1,20 @@
 
-header {
+.header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    align-content: center;
+    border: 2px solid black;
     
 }
 .logo {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;   
+    border: 2px solid green;
+    width: 200px;
 }
 .page-title {
+    flex-grow: 3;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
@@ -18,7 +22,10 @@ header {
     border: 1px solid black;
     
 }
-.link {
+.header-links {
+    flex-grow: 1;
+    border: 1px solid black;
+    width: 200px;
     
 }
 #logo {
@@ -31,18 +38,20 @@ header {
     border: 2px double black;
     padding: 1px;
 }
+#computer-gif {
+    display: flex;
+    width: 128px;
+    height: auto;
+}
 
 .container {
     display: flex;
     border: 1px solid black;
+    justify-content: space-evenly;
+
 }
-.one {
-    justify-content: center;
-    align-items: center;
-}
-.coding {
+.coding, .coffee {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
