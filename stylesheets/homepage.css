@@ -1,17 +1,48 @@
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: column;   
+}
+.page-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1.8px;
+    border: 1px solid black;
+    
+}
+.link {
+    
+}
+#logo {
+    width: 98px;
+    height: 36px;
+}
+#donut {
+    width: 90px;
+    height: 90px;
+    border: 2px double black;
+    padding: 1px;
+}
+
 .container {
     display: flex;
     border: 1px solid black;
 }
-header {
+.one {
+    justify-content: center;
+    align-items: center;
+}
+.coding {
     display: flex;
-    justify-content: space-between;
-    background-color: slategrey;
-    padding-right: 42px;
-}
-#donut {
-    width: 200px;
-    height: auto;
-}
-ul {
-    gap: 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
