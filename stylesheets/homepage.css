@@ -43,10 +43,14 @@ html {
     border: 2px double black;
     padding: 1px;
 }
-#computer-gif, #coffee-cup, #ghost, #croc-walk, #slime, #flowers {
+#computer-gif, #coffee-cup, #ghost {
     display: flex;
-    width: 160px;
-    height: 160px;
+    width: 128px;
+    height: 128px;
+}
+#croc-walk, #slime, #flowers, #foods {
+    width: 176px;
+    height: 176px;
 }
 .container {
     display: flex;
@@ -87,7 +91,13 @@ html {
     font-size: 10px;   
 }
 .info {
-    width: 160px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
     height: auto;
     padding: 16px;
+    margin: 10px;
+    align-items: center;
+    background-color: rgba(169, 161, 159, 0.645);
+    border: 2px double black;
 }
